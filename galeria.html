@@ -36,16 +36,42 @@
     </nav>
     <br>
     <h2>Nossa Galeria</h2><br/>
-    <div class="galeria">
-        <img src="imagem/espaço1.jpeg" img src="imagem/nutri-quadrado.png" width="280px" height="400px"/><span>
-        <img src="imagem/nutri.png"/><br/></span>
-        <a class="miniatura" href="#"><img src="imagem/sofa.jpeg" width="250px"/><span>
-        <img src="imagem/podo.png"/><br/></span></a>
-    </div>
+    <section class="container gallery-container">
+
+        <!--Slide-->
+        <div class="mySlides fade"> <!-- 01 -->
+            <div class="numbertext">01 / 04 - Recepção</div>
+            <img class="imgslide" src="imagem/descanso.jpeg" alt="nutri"/>
+        </div>
+
+        <div class="mySlides fade"> <!-- 02 -->
+            <div class="numbertext">02 / 04 - Sala Nutricionista</div>
+            <img class="imgslide" src="imagem/nutri-cortada.png" alt="nutri"/>
+        </div>
+
+        <div class="mySlides fade"> <!-- 03 -->
+            <div class="numbertext">03 / 04 - Sala Podóloga</div>
+            <img class="imgslide" src="imagem/podo-600.jpeg" alt="nutri"/>
+        </div>
+
+        <div class="mySlides fade"> <!-- 04 -->
+            <div class="numbertext">04 / 04 - Sala Psicóloga</div>
+            <img class="imgslide" src="imagem/psico-600.jpeg" alt="nutri"/>
+        </div>
+
+        
+        <!--Final Slides-->
+
+        <!--Navigation-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <!--End of galery-->    
     <footer id="rodape">
         © 2021 Espaço Equilíbrio Mente e Corpo | Todos os direitos reservados!
         <p>Desenvolvido por MG</p>
     </footer> 
+    <script src="script.js"></script>i
     
 </body>
 </html>
