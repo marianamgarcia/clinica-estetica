@@ -11,7 +11,9 @@ body {
     font-size: 18px;
     font-family:apple-system, BlinkMacSystemFont, 'Segoe UI',
      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+     
+    }
+
 
 /*
 Formatação de menu
@@ -134,12 +136,12 @@ p {
     display: none;
   }
   
-  /* Next & previous buttons */
-  .prev, .next {
+  /* Formatação botão */
+  .next, .prev {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
+    width: 100px;
     margin-top: -22px;
     padding: 16px;
     color: white;
@@ -149,13 +151,17 @@ p {
     border-radius: 0 3px 3px 0;
   }
   
-  /* Position the "next button" to the right */
+  /* Posição botão */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+
+  .prev {
+    left: 0;
+  }
   
-  /* On hover, add a black background color with a little bit see-through */
+  
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
@@ -164,7 +170,7 @@ p {
     width: 100%;
   }
   
-  /* Number text (1/3 etc) */
+  /* Número do texto (1/3 etc) */
   .numbertext {
     color: #f5e2e2;
     font-size: 18px;
@@ -179,7 +185,7 @@ p {
     }
   }
   
-  /* Fading animation */
+  /* A */
   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
