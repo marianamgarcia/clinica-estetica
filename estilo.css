@@ -57,12 +57,16 @@ Formatação de menu
    padding: 50px;
 }
 
-h1, p {
-    margin-top: 2px;
-    padding: 5px;
-    text-align:center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+h1 {
+  margin-top: 2px;
+  padding: 5px;
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  text-align: center;
+
 }
 
 /*Formatação colunas
